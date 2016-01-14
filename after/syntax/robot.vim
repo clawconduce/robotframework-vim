@@ -83,7 +83,7 @@ highlight clear robotIndent
 " Regions
 "------------------------------------------------------------------------
 " Single-line comments. Are there multi-line comments?
-syn region robotComment     display start="^#" excludenl end="$"
+syn region robotComment     display start="^\s*#" excludenl end="$"
 syn region robotString      start="\"" excludenl end="\""
 
 "------------------------------------------------------------------------
