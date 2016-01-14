@@ -111,7 +111,7 @@ hi def link robotKeywordSet         Keyword
 hi def link robotTestcaseSet        Keyword
 hi def link robotGherkin            Keyword
 
-hi def link builtInLibrary          Comment
+hi def link builtInLibrary          Keyword
 hi def link collectionsLibrary      Keyword
 hi def link dateTimeLibrary         Keyword
 hi def link dialogLibrary           Keyword
