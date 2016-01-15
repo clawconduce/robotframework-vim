@@ -75,7 +75,7 @@ syn match builtInLibrary            "\c\<\(Wait[ _]Until[ _]Keyword[ _]Succeeds\
 syntax match robotSeparator /  /
 highlight robotSeparator guibg=#303030 guifg=darkgreen gui=underline ctermbg=237
 syntax match robotSeparatorEx /   \+/
-highlight robotSeparatorEx guibg=#303030 guifg=red gui=underline ctermbg=52
+highlight robotSeparatorEx guibg=#303030 guifg=yellow gui=underline ctermbg=52
 syntax match robotIndent /^ */
 highlight clear robotIndent
 
